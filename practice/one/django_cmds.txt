@@ -1,0 +1,12 @@
+python3 -m venv myenv
+
+source myenv/bin/activate  # On Unix/Linux
+myenv\Scripts\activate      # On Windows
+
+pip install django
+
+django-admin startproject myproject
+python manage.py runserver
+
+python manage.py startapp myapp
+
